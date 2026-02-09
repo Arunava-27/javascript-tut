@@ -20,6 +20,8 @@ const anotherId = Symbol('123')
 
 console.log(id);
 console.log(anotherId);
+console.log(id == anotherId); // false
+
 
 console.log();
 
